@@ -9,6 +9,12 @@ In this talk, I introduced how to implement some authentication patterns in djan
 * [PR Social authentication using social-auth-core.](https://github.com/c-bata/django-auth-example/pull/1)
 * [PR Social authentication from scratch (There is no dependency with social-auth-core).](https://github.com/c-bata/django-auth-example/pull/4)
 
+## IMPORTANTE!
+
+Este proyecto fue clonado para poder traducirlo y utilizarlo como práctica.
+[Proyecto original](https://github.com/wsvincent/django-auth-tutorial)
+[Django authentication tutorial](https://wsvincent.com/django-user-authentication-tutorial-login-and-logout/)
+
 ## Requirements
 
 * Python 3.7

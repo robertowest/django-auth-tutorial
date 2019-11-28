@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block title %}Registro de miembros{% endblock %}
+
+{% block main %}
+<h2>Registro de miembros</h2>
+{% include 'includes/messages.html' %}
+<form method="post">
+    {% csrf_token %}
+    {% include 'includes/form.html' %}
+    <button type="submit" class="btn btn-primary">Registro</button>
+</form>
+
+<ul>
+    <li><a href="{% url 'login' %}">Haga clic aquí para iniciar sesión</a></li>
+    <li><a href="{% url 'password_reset' %}">Haga clic aquí si ha olvidado su contraseña.</a></li>
+</ul>
+{% endblock %}
